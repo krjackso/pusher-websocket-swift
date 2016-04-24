@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0511FFC35D30B356ED34A6D8 /* Pods_PusherSwift_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A8B723C93D8968F14AC5AC /* Pods_PusherSwift_iOS.framework */; };
-		2992ED0516A64D007108A966 /* Pods_PusherSwift_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D6E4BED63ADFF4A4948F1E /* Pods_PusherSwift_tvOS.framework */; };
+		20151835FE24C474D73DE896 /* Pods_PusherSwiftTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8057BCA0D401176B105A42EE /* Pods_PusherSwiftTests_iOS.framework */; };
 		335BCA0C1C38ABE900B47A66 /* PusherSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33831CD31A9CFFD900B124F1 /* PusherSwift.swift */; };
 		335BCA0D1C38ABF000B47A66 /* PusherSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 33831CD61A9CFFF200B124F1 /* PusherSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		337C9F021C38BE2E006CC757 /* PusherSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33831CD31A9CFFD900B124F1 /* PusherSwift.swift */; };
@@ -21,10 +20,11 @@
 		33999D361C4020A300AFED30 /* PusherSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33831CD11A9CFF8200B124F1 /* PusherSwiftTests.swift */; };
 		33999D381C4020A300AFED30 /* PusherSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 33831CD61A9CFFF200B124F1 /* PusherSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33C40CB91C1DFC9C008A54E3 /* PusherSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 33831CD61A9CFFF200B124F1 /* PusherSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		880A672D74CCC1EAE32C7233 /* Pods_PusherSwift_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9BA07EA25D94B5EDC04F1B /* Pods_PusherSwift_OSX.framework */; };
-		9AF0AE2899725CA479C40F3C /* Pods_PusherSwiftTests_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9187A66014F4DC5126D41AF6 /* Pods_PusherSwiftTests_OSX.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		9CE54E77A997EE52C43A1B7C /* Pods_PusherSwiftTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2A475E76EC1FC9DB5346A5 /* Pods_PusherSwiftTests_iOS.framework */; };
-		BA99BA04D960338935F74F1F /* Pods_PusherSwiftTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3270921573904AE304CEF671 /* Pods_PusherSwiftTests_tvOS.framework */; };
+		7E9BDB03BC6269BCC8833359 /* Pods_PusherSwift_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1F4B1B39B7D073DFC208E9 /* Pods_PusherSwift_tvOS.framework */; };
+		8431BABB5799F0527AC8E101 /* Pods_PusherSwiftTests_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2A6F2EB3C0F0B36C475FA9 /* Pods_PusherSwiftTests_OSX.framework */; };
+		86766D014F94FB6DED180E66 /* Pods_PusherSwift_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932E1B9344702511000D3DC3 /* Pods_PusherSwift_iOS.framework */; };
+		9ED767ECF91AE61DAA7A032B /* Pods_PusherSwift_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA38407E5878910A7A1E77F /* Pods_PusherSwift_OSX.framework */; };
+		ACED4586D440D6C83245B760 /* Pods_PusherSwiftTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FBFFDB685C00B11122F3DB /* Pods_PusherSwiftTests_tvOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,16 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0116EB8D2E71B5C71CD7D20C /* Pods_Builds_PusherSwift_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Builds_PusherSwift_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		188DA48431EC2FC13AEA7F11 /* Pods-PusherSwift-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwift-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwift-tvOS/Pods-PusherSwift-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		1D2A475E76EC1FC9DB5346A5 /* Pods_PusherSwiftTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PusherSwiftTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		25C98B5CC81AEFA07DF8C2CE /* Pods-PusherSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwiftTests/Pods-PusherSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
-		27263F18C92BB9756AA2DB7E /* Pods-PusherSwiftTests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwiftTests-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwiftTests-iOS/Pods-PusherSwiftTests-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		2A9C7920F58BA607C041C808 /* Pods-PusherSwift-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwift-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwift-OSX/Pods-PusherSwift-OSX.release.xcconfig"; sourceTree = "<group>"; };
-		2D9668EEC8907A968E3B84C0 /* Pods_Builds_PusherSwift_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Builds_PusherSwift_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3270921573904AE304CEF671 /* Pods_PusherSwiftTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PusherSwiftTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33188D1A1C45236E00AC2E25 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = "Pods/../build/Debug/Pods-PusherSwiftTests-OSX/CryptoSwift.framework"; sourceTree = "<group>"; };
-		3345DC941C52E6810083CCB8 /* Pods_PusherSwift_OSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_PusherSwift_OSX.framework; path = "../../Library/Developer/Xcode/DerivedData/PusherSwift-cifrlthdfybbcedmlylirqthvkky/Build/Products/Debug/Pods_PusherSwift_OSX.framework"; sourceTree = "<group>"; };
 		3345DC961C52E6BF0083CCB8 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = "Pods/../build/Debug/Pods-PusherSwift-OSX/CryptoSwift.framework"; sourceTree = "<group>"; };
 		3345DC981C52E6CB0083CCB8 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Pods/../build/Debug/Pods-PusherSwiftTests-OSX/Quick.framework"; sourceTree = "<group>"; };
 		3345DC9A1C52E6D10083CCB8 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Pods/../build/Debug/Pods-PusherSwiftTests-OSX/Nimble.framework"; sourceTree = "<group>"; };
@@ -69,7 +60,6 @@
 		3345DC9E1C52E6ED0083CCB8 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = "Pods/../build/Debug/Pods-PusherSwift-OSX/Starscream.framework"; sourceTree = "<group>"; };
 		337C9EE01C38B708006CC757 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		337C9F0D1C38BE2E006CC757 /* PusherSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PusherSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		337C9F0F1C38C51A006CC757 /* Pods_PusherSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_PusherSwift.framework; path = "Pods/../build/Debug-iphoneos/Pods_PusherSwift.framework"; sourceTree = "<group>"; };
 		337C9F211C394197006CC757 /* PusherSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PusherSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33831C891A9CF61600B124F1 /* PusherSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PusherSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33831C8D1A9CF61600B124F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,32 +70,24 @@
 		33831CD61A9CFFF200B124F1 /* PusherSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PusherSwift.h; path = Source/PusherSwift.h; sourceTree = SOURCE_ROOT; };
 		33999D2D1C401F9600AFED30 /* PusherSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PusherSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33999D3F1C4020A300AFED30 /* PusherSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PusherSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		36A2F88A174BAE49C1A78CAD /* Pods_Builds_PusherSwift_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Builds_PusherSwift_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D194D886863B00A69F18B93 /* Pods-PusherSwiftTests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwiftTests-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwiftTests-tvOS/Pods-PusherSwiftTests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		453D0A4BB2E30972E26203E2 /* Pods_PusherSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PusherSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49A8B723C93D8968F14AC5AC /* Pods_PusherSwift_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PusherSwift_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59DCDFD5ABDA09357CE483DD /* Pods-Builds-PusherSwift-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Builds-PusherSwift-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Builds-PusherSwift-iOS/Pods-Builds-PusherSwift-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		5AA0FD746B9FFD3A1F6A9171 /* Pods-Builds-PusherSwift-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Builds-PusherSwift-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Builds-PusherSwift-OSX/Pods-Builds-PusherSwift-OSX.debug.xcconfig"; sourceTree = "<group>"; };
-		63DB9B429434585DDB375F06 /* Pods-PusherSwift-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwift-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwift-iOS/Pods-PusherSwift-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		68E9EE15C844D8E5F27C3AB2 /* Pods-Builds-PusherSwift-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Builds-PusherSwift-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-Builds-PusherSwift-OSX/Pods-Builds-PusherSwift-OSX.release.xcconfig"; sourceTree = "<group>"; };
-		6B9BA07EA25D94B5EDC04F1B /* Pods_PusherSwift_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PusherSwift_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E2DAB00D2518F494D1A8EE6 /* Pods-PusherSwift-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwift-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwift-iOS/Pods-PusherSwift-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		8EDEA18DD43DEB2A15D3ADD4 /* Pods-Builds-PusherSwift-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Builds-PusherSwift-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Builds-PusherSwift-tvOS/Pods-Builds-PusherSwift-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		9038DA78CCDAF570E7A5AE12 /* Pods_Tests_PusherSwiftTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_PusherSwiftTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90483DDFF5D618DE717D7FB4 /* Pods-PusherSwiftTests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwiftTests-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwiftTests-iOS/Pods-PusherSwiftTests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		9187A66014F4DC5126D41AF6 /* Pods_PusherSwiftTests_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PusherSwiftTests_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91C596305841D9DED1F81A7D /* Pods_Tests_PusherSwiftTests_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_PusherSwiftTests_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		95D6E4BED63ADFF4A4948F1E /* Pods_PusherSwift_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PusherSwift_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9987B2195DB8473214051A3D /* Pods-Builds-PusherSwift-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Builds-PusherSwift-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Builds-PusherSwift-tvOS/Pods-Builds-PusherSwift-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		9CA187AC6B2E7D833F0341B1 /* Pods-PusherSwift-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwift-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwift-tvOS/Pods-PusherSwift-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		AAAB0B39160BBE14508BE784 /* Pods-PusherSwiftTests-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwiftTests-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwiftTests-tvOS/Pods-PusherSwiftTests-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		AD177836AC5E78D5D8D70812 /* Pods-PusherSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwiftTests/Pods-PusherSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B8B703EE8CF9F07BBA274AA1 /* Pods_PusherSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PusherSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C24E11791E87B625F115BEAA /* Pods-PusherSwiftTests-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwiftTests-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwiftTests-OSX/Pods-PusherSwiftTests-OSX.debug.xcconfig"; sourceTree = "<group>"; };
-		CD14AEB3AB7E98B3386CFF06 /* Pods_Tests_PusherSwiftTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_PusherSwiftTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3ADB71F4691FE076D2FCF60 /* Pods-Builds-PusherSwift-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Builds-PusherSwift-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Builds-PusherSwift-iOS/Pods-Builds-PusherSwift-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		DA9BA263FA4AB6FF157F8326 /* Pods-PusherSwiftTests-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwiftTests-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwiftTests-OSX/Pods-PusherSwiftTests-OSX.release.xcconfig"; sourceTree = "<group>"; };
-		E21DAE45D4E024C705173879 /* Pods-PusherSwift-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwift-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwift-OSX/Pods-PusherSwift-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		4E2A6F2EB3C0F0B36C475FA9 /* Pods_PusherSwiftTests_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PusherSwiftTests_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FBFFDB685C00B11122F3DB /* Pods_PusherSwiftTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PusherSwiftTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8EB9876C327A6BD7BF2F77 /* Pods-PusherSwiftTests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwiftTests-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwiftTests-tvOS/Pods-PusherSwiftTests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		75B8464A8EC42341566C03AD /* Pods-PusherSwiftTests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwiftTests-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwiftTests-iOS/Pods-PusherSwiftTests-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		78EE0FF6FB08AC0F099BD636 /* Pods-PusherSwift-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwift-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwift-OSX/Pods-PusherSwift-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		8057BCA0D401176B105A42EE /* Pods_PusherSwiftTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PusherSwiftTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86DCE85C9B7F917447DF1FBC /* Pods-PusherSwift-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwift-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwift-iOS/Pods-PusherSwift-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8E7EE4CB6027FF5A791FCD9E /* Pods-PusherSwift-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwift-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwift-OSX/Pods-PusherSwift-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		932E1B9344702511000D3DC3 /* Pods_PusherSwift_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PusherSwift_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9784B3FE99882F3B17CF2B85 /* Pods-PusherSwift-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwift-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwift-iOS/Pods-PusherSwift-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		9C9285D85809AA8B0B72043B /* Pods-PusherSwift-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwift-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwift-tvOS/Pods-PusherSwift-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		AEACFFE371F31CBAA57C99A4 /* Pods-PusherSwiftTests-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwiftTests-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwiftTests-OSX/Pods-PusherSwiftTests-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		B5124431DF45CF490A9C7408 /* Pods-PusherSwiftTests-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwiftTests-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwiftTests-OSX/Pods-PusherSwiftTests-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		CEE95AA59E9BBE490E3A5A5F /* Pods-PusherSwiftTests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwiftTests-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwiftTests-iOS/Pods-PusherSwiftTests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D743A6A98CAE78D0BBE363E4 /* Pods-PusherSwift-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwift-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwift-tvOS/Pods-PusherSwift-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F57C7D1D5E6B246473CD55F1 /* Pods-PusherSwiftTests-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusherSwiftTests-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PusherSwiftTests-tvOS/Pods-PusherSwiftTests-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FE1F4B1B39B7D073DFC208E9 /* Pods_PusherSwift_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PusherSwift_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA38407E5878910A7A1E77F /* Pods_PusherSwift_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PusherSwift_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2992ED0516A64D007108A966 /* Pods_PusherSwift_tvOS.framework in Frameworks */,
+				7E9BDB03BC6269BCC8833359 /* Pods_PusherSwift_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880A672D74CCC1EAE32C7233 /* Pods_PusherSwift_OSX.framework in Frameworks */,
+				9ED767ECF91AE61DAA7A032B /* Pods_PusherSwift_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0511FFC35D30B356ED34A6D8 /* Pods_PusherSwift_iOS.framework in Frameworks */,
+				86766D014F94FB6DED180E66 /* Pods_PusherSwift_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CE54E77A997EE52C43A1B7C /* Pods_PusherSwiftTests_iOS.framework in Frameworks */,
+				20151835FE24C474D73DE896 /* Pods_PusherSwiftTests_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA99BA04D960338935F74F1F /* Pods_PusherSwiftTests_tvOS.framework in Frameworks */,
+				ACED4586D440D6C83245B760 /* Pods_PusherSwiftTests_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF0AE2899725CA479C40F3C /* Pods_PusherSwiftTests_OSX.framework in Frameworks */,
+				8431BABB5799F0527AC8E101 /* Pods_PusherSwiftTests_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,8 +148,8 @@
 				33831C8B1A9CF61600B124F1 /* Source */,
 				33831C981A9CF61600B124F1 /* Tests */,
 				33831C8A1A9CF61600B124F1 /* Products */,
-				C8BC0305BB40AE4768D8A016 /* Pods */,
 				42D29A655054030A9B238900 /* Frameworks */,
+				3CB5CCD9F9BAC4DA03C76C8E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,6 +202,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3CB5CCD9F9BAC4DA03C76C8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78EE0FF6FB08AC0F099BD636 /* Pods-PusherSwift-OSX.debug.xcconfig */,
+				8E7EE4CB6027FF5A791FCD9E /* Pods-PusherSwift-OSX.release.xcconfig */,
+				86DCE85C9B7F917447DF1FBC /* Pods-PusherSwift-iOS.debug.xcconfig */,
+				9784B3FE99882F3B17CF2B85 /* Pods-PusherSwift-iOS.release.xcconfig */,
+				D743A6A98CAE78D0BBE363E4 /* Pods-PusherSwift-tvOS.debug.xcconfig */,
+				9C9285D85809AA8B0B72043B /* Pods-PusherSwift-tvOS.release.xcconfig */,
+				AEACFFE371F31CBAA57C99A4 /* Pods-PusherSwiftTests-OSX.debug.xcconfig */,
+				B5124431DF45CF490A9C7408 /* Pods-PusherSwiftTests-OSX.release.xcconfig */,
+				CEE95AA59E9BBE490E3A5A5F /* Pods-PusherSwiftTests-iOS.debug.xcconfig */,
+				75B8464A8EC42341566C03AD /* Pods-PusherSwiftTests-iOS.release.xcconfig */,
+				F57C7D1D5E6B246473CD55F1 /* Pods-PusherSwiftTests-tvOS.debug.xcconfig */,
+				6F8EB9876C327A6BD7BF2F77 /* Pods-PusherSwiftTests-tvOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		42D29A655054030A9B238900 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,53 +229,16 @@
 				3345DC9A1C52E6D10083CCB8 /* Nimble.framework */,
 				3345DC981C52E6CB0083CCB8 /* Quick.framework */,
 				3345DC961C52E6BF0083CCB8 /* CryptoSwift.framework */,
-				3345DC941C52E6810083CCB8 /* Pods_PusherSwift_OSX.framework */,
 				33188D1A1C45236E00AC2E25 /* CryptoSwift.framework */,
-				337C9F0F1C38C51A006CC757 /* Pods_PusherSwift.framework */,
 				337C9EE01C38B708006CC757 /* UIKit.framework */,
-				B8B703EE8CF9F07BBA274AA1 /* Pods_PusherSwift.framework */,
-				453D0A4BB2E30972E26203E2 /* Pods_PusherSwiftTests.framework */,
-				95D6E4BED63ADFF4A4948F1E /* Pods_PusherSwift_tvOS.framework */,
-				6B9BA07EA25D94B5EDC04F1B /* Pods_PusherSwift_OSX.framework */,
-				91C596305841D9DED1F81A7D /* Pods_Tests_PusherSwiftTests_OSX.framework */,
-				9038DA78CCDAF570E7A5AE12 /* Pods_Tests_PusherSwiftTests_iOS.framework */,
-				CD14AEB3AB7E98B3386CFF06 /* Pods_Tests_PusherSwiftTests_tvOS.framework */,
-				2D9668EEC8907A968E3B84C0 /* Pods_Builds_PusherSwift_OSX.framework */,
-				0116EB8D2E71B5C71CD7D20C /* Pods_Builds_PusherSwift_iOS.framework */,
-				36A2F88A174BAE49C1A78CAD /* Pods_Builds_PusherSwift_tvOS.framework */,
-				49A8B723C93D8968F14AC5AC /* Pods_PusherSwift_iOS.framework */,
-				9187A66014F4DC5126D41AF6 /* Pods_PusherSwiftTests_OSX.framework */,
-				1D2A475E76EC1FC9DB5346A5 /* Pods_PusherSwiftTests_iOS.framework */,
-				3270921573904AE304CEF671 /* Pods_PusherSwiftTests_tvOS.framework */,
+				FFA38407E5878910A7A1E77F /* Pods_PusherSwift_OSX.framework */,
+				932E1B9344702511000D3DC3 /* Pods_PusherSwift_iOS.framework */,
+				FE1F4B1B39B7D073DFC208E9 /* Pods_PusherSwift_tvOS.framework */,
+				4E2A6F2EB3C0F0B36C475FA9 /* Pods_PusherSwiftTests_OSX.framework */,
+				8057BCA0D401176B105A42EE /* Pods_PusherSwiftTests_iOS.framework */,
+				67FBFFDB685C00B11122F3DB /* Pods_PusherSwiftTests_tvOS.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C8BC0305BB40AE4768D8A016 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AD177836AC5E78D5D8D70812 /* Pods-PusherSwiftTests.debug.xcconfig */,
-				25C98B5CC81AEFA07DF8C2CE /* Pods-PusherSwiftTests.release.xcconfig */,
-				5AA0FD746B9FFD3A1F6A9171 /* Pods-Builds-PusherSwift-OSX.debug.xcconfig */,
-				68E9EE15C844D8E5F27C3AB2 /* Pods-Builds-PusherSwift-OSX.release.xcconfig */,
-				D3ADB71F4691FE076D2FCF60 /* Pods-Builds-PusherSwift-iOS.debug.xcconfig */,
-				59DCDFD5ABDA09357CE483DD /* Pods-Builds-PusherSwift-iOS.release.xcconfig */,
-				8EDEA18DD43DEB2A15D3ADD4 /* Pods-Builds-PusherSwift-tvOS.debug.xcconfig */,
-				9987B2195DB8473214051A3D /* Pods-Builds-PusherSwift-tvOS.release.xcconfig */,
-				E21DAE45D4E024C705173879 /* Pods-PusherSwift-OSX.debug.xcconfig */,
-				2A9C7920F58BA607C041C808 /* Pods-PusherSwift-OSX.release.xcconfig */,
-				6E2DAB00D2518F494D1A8EE6 /* Pods-PusherSwift-iOS.debug.xcconfig */,
-				63DB9B429434585DDB375F06 /* Pods-PusherSwift-iOS.release.xcconfig */,
-				188DA48431EC2FC13AEA7F11 /* Pods-PusherSwift-tvOS.debug.xcconfig */,
-				9CA187AC6B2E7D833F0341B1 /* Pods-PusherSwift-tvOS.release.xcconfig */,
-				C24E11791E87B625F115BEAA /* Pods-PusherSwiftTests-OSX.debug.xcconfig */,
-				DA9BA263FA4AB6FF157F8326 /* Pods-PusherSwiftTests-OSX.release.xcconfig */,
-				90483DDFF5D618DE717D7FB4 /* Pods-PusherSwiftTests-iOS.debug.xcconfig */,
-				27263F18C92BB9756AA2DB7E /* Pods-PusherSwiftTests-iOS.release.xcconfig */,
-				AAAB0B39160BBE14508BE784 /* Pods-PusherSwiftTests-tvOS.debug.xcconfig */,
-				3D194D886863B00A69F18B93 /* Pods-PusherSwiftTests-tvOS.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -886,7 +850,7 @@
 /* Begin XCBuildConfiguration section */
 		337C9F0B1C38BE2E006CC757 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 188DA48431EC2FC13AEA7F11 /* Pods-PusherSwift-tvOS.debug.xcconfig */;
+			baseConfigurationReference = D743A6A98CAE78D0BBE363E4 /* Pods-PusherSwift-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -949,7 +913,7 @@
 		};
 		337C9F0C1C38BE2E006CC757 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CA187AC6B2E7D833F0341B1 /* Pods-PusherSwift-tvOS.release.xcconfig */;
+			baseConfigurationReference = 9C9285D85809AA8B0B72043B /* Pods-PusherSwift-tvOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1005,7 +969,7 @@
 		};
 		337C9F1F1C394197006CC757 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E21DAE45D4E024C705173879 /* Pods-PusherSwift-OSX.debug.xcconfig */;
+			baseConfigurationReference = 78EE0FF6FB08AC0F099BD636 /* Pods-PusherSwift-OSX.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1068,7 +1032,7 @@
 		};
 		337C9F201C394197006CC757 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A9C7920F58BA607C041C808 /* Pods-PusherSwift-OSX.release.xcconfig */;
+			baseConfigurationReference = 8E7EE4CB6027FF5A791FCD9E /* Pods-PusherSwift-OSX.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1144,7 +1108,7 @@
 		};
 		33831C9E1A9CF61600B124F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E2DAB00D2518F494D1A8EE6 /* Pods-PusherSwift-iOS.debug.xcconfig */;
+			baseConfigurationReference = 86DCE85C9B7F917447DF1FBC /* Pods-PusherSwift-iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1205,7 +1169,7 @@
 		};
 		33831C9F1A9CF61600B124F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63DB9B429434585DDB375F06 /* Pods-PusherSwift-iOS.release.xcconfig */;
+			baseConfigurationReference = 9784B3FE99882F3B17CF2B85 /* Pods-PusherSwift-iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1259,7 +1223,7 @@
 		};
 		33831CA11A9CF61600B124F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90483DDFF5D618DE717D7FB4 /* Pods-PusherSwiftTests-iOS.debug.xcconfig */;
+			baseConfigurationReference = CEE95AA59E9BBE490E3A5A5F /* Pods-PusherSwiftTests-iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1310,7 +1274,7 @@
 		};
 		33831CA21A9CF61600B124F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27263F18C92BB9756AA2DB7E /* Pods-PusherSwiftTests-iOS.release.xcconfig */;
+			baseConfigurationReference = 75B8464A8EC42341566C03AD /* Pods-PusherSwiftTests-iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1354,7 +1318,7 @@
 		};
 		33999D2B1C401F9600AFED30 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAAB0B39160BBE14508BE784 /* Pods-PusherSwiftTests-tvOS.debug.xcconfig */;
+			baseConfigurationReference = F57C7D1D5E6B246473CD55F1 /* Pods-PusherSwiftTests-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1405,7 +1369,7 @@
 		};
 		33999D2C1C401F9600AFED30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D194D886863B00A69F18B93 /* Pods-PusherSwiftTests-tvOS.release.xcconfig */;
+			baseConfigurationReference = 6F8EB9876C327A6BD7BF2F77 /* Pods-PusherSwiftTests-tvOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1449,7 +1413,7 @@
 		};
 		33999D3D1C4020A300AFED30 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C24E11791E87B625F115BEAA /* Pods-PusherSwiftTests-OSX.debug.xcconfig */;
+			baseConfigurationReference = AEACFFE371F31CBAA57C99A4 /* Pods-PusherSwiftTests-OSX.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1508,7 +1472,7 @@
 		};
 		33999D3E1C4020A300AFED30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA9BA263FA4AB6FF157F8326 /* Pods-PusherSwiftTests-OSX.release.xcconfig */;
+			baseConfigurationReference = B5124431DF45CF490A9C7408 /* Pods-PusherSwiftTests-OSX.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
