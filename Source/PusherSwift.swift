@@ -651,7 +651,13 @@ public struct PusherEvent {
 }
 
 public class PresencePusherChannel: PusherChannel {
-    public var members: [PresenceChannelMember]
+    public var members: [PresenceChannelMember] {
+        didSet {
+            onUpdateMembers?(members)
+        }
+    }
+
+    public var onUpdateMembers: ([PresenceChannelMember] -> Void)?
 
     override init(name: String, connection: PusherConnection) {
         self.members = []
